@@ -1,0 +1,152 @@
+label{
+    font-weight: 1000;
+    color:white;
+}
+input{
+    font-weight: 1000;
+}
+select{
+    font-weight: 1000;
+    border-radius: 5px;
+}
+.GlavniKontejner{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    background-image: url("./bg.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.kontForma{
+    display: flex;
+    flex: 1 1 400px;
+    max-width: 1100px;
+    flex-direction: row;
+    text-align: center;
+    margin-right: 4%;
+    background-color: rgba(0,0,0,.35);   
+    
+}
+.kontPrikaz{
+    display:flex;
+    flex-direction: column;
+    margin-top: 4%;
+}
+.gornji
+{
+    display:flex;
+    flex-direction: column;
+    margin-left: 2%;
+}
+.donji{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 6%;
+    margin-top: 6%;
+    margin-right: 4%;
+      
+}
+.treci
+{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 6%;
+    margin-right: 6%;
+    
+
+}
+
+table,tr,th, td{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: lightyellow;
+    border-radius: 2px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 1000;
+    background-color: rgba(0,0,0,.1); 
+}
+table{
+    border-collapse: collapse;
+}
+
+button{
+    margin-top: 4%;  
+    border-radius: 3px;
+    cursor: pointer;
+    color: black;
+    margin-right: 2%;
+    font-family: 'Roboto';
+    font-weight: 100;
+    border: 1px solid #fff;    
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+}
+
+button:hover{
+    color: #006398;
+    border: 1px solid #006398;
+    background-color: #00A6FF;
+    box-shadow: 2px 2px 20px #AFE9FF;
+}
+.btnDodaj,.btnIzmeni{
+    margin-right: 5px;
+    flex: 1 1 400px;
+}
+.btnIzmeniC
+{
+    
+    text-align: center;
+    
+}
+.obrisiClana
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+}
+.btnIznajmi
+{
+    margin-top: 3%;
+}
+.btnObrisi{
+    flex: 1 1 400px;
+}
+.redButton{
+    display: flex;
+    margin-bottom: 6%;
+}
+.divRadio{
+    display: flex;
+    margin-bottom: 3%;
+    margin-left: 30%;
+    margin-top: 4%;
+
+}
+.lblRadio{
+    margin-left: 10%;
+
+}
+.redPrikaz{
+    display: flex;
+    margin-bottom: 2%;
+}
+.btnKnjige{
+    margin-right: 5px;
+    flex: 1 1 400px;
+}
+.Iznajmljivanjabtn{
+    flex: 1 1 400px;
+}
+.PrikazClan{
+    flex: 1 1 400px;
+}
+.bibliotekaSelect,.zanrSelect,.SifraClass,.mesecSelect
+{
+    display: flex;
+    text-align: center;
+}
